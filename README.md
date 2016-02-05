@@ -1,3 +1,5 @@
+# Tutorial
+https://www.twilio.com/blog/2015/08/setting-up-react-for-es6-with-webpack-and-babel-2.html
 
 # init project
 npm init
@@ -16,3 +18,6 @@ npm install --save react@0.14
 
 # Run dev server
 webpack-dev-server --progress --colors
+
+# runs local on
+http://localhost:8080/webpack-dev-server/
