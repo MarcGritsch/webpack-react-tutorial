@@ -26,7 +26,7 @@ var likeableThings = ['cat', 'puppy', 'goldfish'];
 var LikeButtonList = React.createClass ({
   render: function() {
     var buttons = this.props.likeableThings.map(function(thing) {
-        return <LikeButton name={thing} />;
+        return <LikeButton key={thing} name={thing} />;
       }
     );
     return <ul> {buttons} </ul>;
